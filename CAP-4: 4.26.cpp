@@ -28,8 +28,7 @@ int main(){
                     tamcuadradointerno--;
                     contador++; // se vuelve a invocar a el contador para considerar los espacios que ocupa el cuadrado interno
                 }
-        }
-        else {
+        }else if(contador%tamano==0){
             cout << endl; //imprime el salto de linea cada ves que encuentre un multiplo del tamaño ingresado
         }
         
